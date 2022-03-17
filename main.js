@@ -1,1 +1,1 @@
-document.getElementById('dog').innerHTML = 'Wooof!';
+document.getElementById("dog").innerHTML = "Wooof! 🐶";
