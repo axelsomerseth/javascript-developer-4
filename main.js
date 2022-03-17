@@ -1,0 +1,1 @@
+document.getElementById('dog').innerHTML = 'Wooof!';
