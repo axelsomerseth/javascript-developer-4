@@ -11,6 +11,7 @@ console.log(Dog.prototype);
 console.log(Animal.prototype.hasOwnProperty('makeSound'));
 console.log(Dog.prototype.hasOwnProperty('bark'));
 
+
 const parrot = new Bird('parrot', 'twit twit');
 console.log(Bird.prototype);
 
