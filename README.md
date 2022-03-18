@@ -5,7 +5,6 @@
 # 
 
 1. Imports
-    1. CommonJS Modules (require, exports).
 2. Modules
     1. ECMAScript Modules (import, export).
 3. Object Constructors.
