@@ -1,4 +1,6 @@
-import { Animal, Dog, Bird } from './zoo.js';
+// Use zoo.js for class/object example
+// Use zoo-fn.js for functional example
+import { Animal, Dog, Bird } from './zoo-fn.js';
 
 const cricket = new Animal('cricket', 'cri cri');
 console.log(Animal.prototype);

@@ -15,14 +15,14 @@
 6. Factory Functions
    1. Instance new objects with functions (constructor functions).
 7. Understand and able to implement javascript code using OOP principles.
-   1. The `instanceof` operator
-   2. Own properties (`.hasOwnProperty`).
+   1. The `<object> instanceof <Type>` operator
+   2. Own properties (`<Type>.prototype.hasOwnProperty`).
    3. Prototype properties.
    4. Prototype chain.
    5. The `constructor` property.
-   6. The `isPrototypeOf` method.
+   6. The `<Type>.prototype.isPrototypeOf(<object>)` method.
    7. Inheritance (don't repeat yourself).
-   8. Use Object.create(`<Type.prototype>`) to do Inheritance.
+   8. Use Object.create(`<Type>.prototype`) to do Inheritance.
    9. Fixing constructors.
 8. Writes and maintains pure functions
    1. Demonstrate how works a pure function.
