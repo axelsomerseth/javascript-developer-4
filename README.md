@@ -28,7 +28,7 @@
     5. Constructor property.
     6. The isPrototypeOf method.
     7. Inheritance (don't repeat yourself).
-    8. Use Object.create(<Generic.propotype>) to do Inheritance.
+    8. Use Object.create(<Type.prototype>) to do Inheritance.
     9. Fixing constructors.
 10. Writes and maintains pure functions
     1. Demonstrate how works a pure function.
