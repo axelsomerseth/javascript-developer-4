@@ -1,4 +1,4 @@
-function Animal (name, sound) {
+function Animal(name, sound) {
 	this.name = name;
 	this.sound = sound;
 };
