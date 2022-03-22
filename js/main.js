@@ -18,3 +18,13 @@ console.log(loro);
 // 5. Prototypes
 const cricket = new Animal('pepito', 'cri cri cri');
 console.log(cricket);
+
+// 6. factory functions done
+const clifford = new Dog('clifford', 'woof woof');
+console.log(clifford);
+
+// 7. OOP principles
+console.log(Animal.prototype.isPrototypeOf(cricket)); // true
+console.log(Bird.prototype.isPrototypeOf(loro)); // true
+console.log(Dog.prototype.isPrototypeOf(clifford)); // true
+
