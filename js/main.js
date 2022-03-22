@@ -39,5 +39,6 @@ console.log(arr2);
 
 
 // 9. Remote APIs 
+// 10. Array of promises 
 import { resolvePromises } from './fetch.js';
 resolvePromises();
