@@ -6,7 +6,10 @@ document.getElementById('bird-sound').innerHTML = 'cri cri';
 console.log(_.upperCase('hola axel'));
 
 // 2. Modules
-import { Animal } from './zoo.js';
+import { Animal, Dog, Bird } from './zoo.js';
 
-const loro = new Animal('alberto', 'hola hola');
+// 3. Constructor
+const loro = new Bird('alberto', 'hola hola');
 console.log(loro.makeSound());
+
+// 4. Classes done

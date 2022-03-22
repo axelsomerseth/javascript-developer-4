@@ -9,8 +9,16 @@ class Animal {
 	}
 }
 
-class Dog {}
+class Dog extends Animal {
+	constructor(name, sound) {
+		super(name, sound);
+	}
+}
 
-class Bird {}
+class Bird extends Animal {
+	constructor(name, sound) {
+		super(name, sound);
+	}
+}
 
-export { Animal };
+export { Animal, Dog, Bird };
