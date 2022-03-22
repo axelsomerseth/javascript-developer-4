@@ -6,10 +6,37 @@
 
 .card {
   width: 300px;
-  height: 100px;
+  height: 150px;
   border: 1px black solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sound {
+  font-weight: 700;
+  font-size: medium;
+}
+
+.title {
+  font-weight: 800;
+  font-size: medium;
 }
