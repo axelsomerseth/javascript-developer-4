@@ -36,3 +36,8 @@ const arr2 = [4, 5, 6];
 console.log(concatArray(arr1, arr2));
 console.log(arr1);
 console.log(arr2);
+
+
+// 9. Remote APIs
+import { resolvePromises } from './fetch.js';
+resolvePromises();
