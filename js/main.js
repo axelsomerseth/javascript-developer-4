@@ -6,7 +6,7 @@ document.getElementById('bird-sound').innerHTML = 'cri cri';
 // console.log(_.upperCase('hola axel'));
 
 // 2. Modules
-import { Animal, Dog, Bird } from './zoo.js';
+import { Animal, Dog, Bird } from './zoo-fn.js';
 
 // 3. Constructor
 const loro = new Bird('alberto', 'twit twit');
