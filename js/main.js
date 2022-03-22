@@ -38,6 +38,6 @@ console.log(arr1);
 console.log(arr2);
 
 
-// 9. Remote APIs
+// 9. Remote APIs 
 import { resolvePromises } from './fetch.js';
 resolvePromises();
