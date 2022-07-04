@@ -1,6 +1,6 @@
 const url1 = "https://catfact.ninja/fact";
 const url2 = "https://api.coindesk.com/v1/bpi/currentprice.json";
-const url3 = "https://www.boredapi.com/api/activity";
+const url3 = "https://jsonplaceholder.typicode.com/todos/1";
 
 function resolvePromises() {
   const response1 = fetch(url1);
